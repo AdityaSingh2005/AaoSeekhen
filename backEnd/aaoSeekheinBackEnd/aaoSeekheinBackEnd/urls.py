@@ -16,6 +16,15 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from signin.views import user_signin
+from asToken.views import get_token
+from asUser.views import UserViewSet
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('aaoseekhein/v1/signin', user_signin),
+    path('aaoseekhein/v1/gettoken', get_token),
+    path('aaoseekhein/v1/user', UserViewSet.as_view({'get': 'list', 'patch': 'partial_update'})),
+    path('aaoseekhein/v1/user/<int:pk>', UserViewSet.as_view({'get': 'list', 'patch': 'partial_update'})),
+
 ]

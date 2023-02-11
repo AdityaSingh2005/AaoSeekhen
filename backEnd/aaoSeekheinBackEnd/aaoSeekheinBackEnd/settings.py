@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-av6!royht$a2q2$5wm0#s33x_=f6h9v%f27q%!@!hlgy53f_=$
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://aefa-2401-4900-8094-2256-aca6-39b9-da2d-efc6.in.ngrok.io']
 
 
 # Application definition
@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_filters',
+    'rest_framework',
+    'signin',
+    'asToken',
+    'asUser',
 ]
 
 MIDDLEWARE = [
@@ -75,14 +80,21 @@ WSGI_APPLICATION = 'aaoSeekheinBackEnd.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'aaosekheindatabase',
+        'HOST': 'localhost',
+        'USER': 'root',
+        'PASSWORD': '1234',
+        'OPTIONS': {'charset': 'utf8mb4'}
+
     }
 }
 
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
+
+AUTH_USER_MODEL = 'signin.AsUser'
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -121,3 +133,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+REST_FRAMEWORK = {
+    # 'DEFAULT_AUTHENTICATION_CLASSES': [
+    #     'asToken.authentication.MultiTokenAuthentication',
+    # ],
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10,
+
+    'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend',
+                                'rest_framework.filters.SearchFilter']
+}
