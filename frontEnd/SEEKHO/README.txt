@@ -1,8 +1,3 @@
-MDB5
-Version: FREE 6.1.0
+# AAO SEEKHEIN 
 
-Documentation:
-https://mdbootstrap.com/docs/standard/
-
-Contact:
-office@mdbootstrap.com
+Aao seekhein is an interactive educational website made for children and their parens in rural areas and aims to promote english education.
