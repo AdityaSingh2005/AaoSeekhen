@@ -1,3 +1,16 @@
+var token = localStorage.getItem("token")
+var userId = localStorage.getItem("userId")
+
+
+if (token != null) {
+  let signinButton = document.getElementById("signinButton")
+  signinButton.style.display = "none"
+}
+else {
+  let profileIcon = document.getElementById("profileIcon")
+  profileIcon.style.display = "none"
+}
+
 var ctx = document.getElementById("myChart");
 
 var myChart = new Chart(ctx, {
