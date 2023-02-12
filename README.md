@@ -4,8 +4,11 @@ AaoSeekhein is an innovative solution to illiteracy in rural areas that aims to 
 
 # Screenshots
 
+![homeScreen](https://user-images.githubusercontent.com/95236897/218304841-8a8852ee-ec6d-48a9-bcc1-15a6477bd618.jpeg)
 
+![roadMap](https://user-images.githubusercontent.com/95236897/218304878-2e9a1518-11e5-40cc-b778-b1ca453e627a.jpeg)
 
+![learn1](https://user-images.githubusercontent.com/95236897/218304984-6dd8941d-a5b4-41fd-96fe-423e2a812460.jpeg)
 
 
 # Steps to run locally
