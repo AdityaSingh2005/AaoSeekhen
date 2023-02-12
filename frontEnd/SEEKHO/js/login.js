@@ -56,7 +56,7 @@ let handleSignInClick=()=>{
             .then(data=>{
                 console.log(data) 
                 token = data.token
-                window.location.href = "/frontEnd/SEEKHO/index.html";
+                window.location.href = "./index.html";
                 localStorage.setItem("token",token)
                 localStorage.setItem("userId",userId)
 
