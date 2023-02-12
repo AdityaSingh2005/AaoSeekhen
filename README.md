@@ -30,10 +30,10 @@ AaoSeekhein is an innovative solution to illiteracy in rural areas that aims to 
 
 
 # Contributors
-•Arnav Kohli - Intern
+•Arnav Kohli - Backend Developer
 
-•Aditya Pratap Singh - Junior Frontend Developer
+•Aditya Pratap Singh - Frontend Developer
 
-•Akshay Kumar Sharma - Junior Frontend Developer
+•Akshay Kumar Sharma - Frontend Developer
 
-•Archit Kohli - Senior Backend Developer and architecture design
+•Archit Kohli - Backend Developer
