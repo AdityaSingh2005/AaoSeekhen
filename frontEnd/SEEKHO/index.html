@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/2e853aa989.js" crossorigin="anonymous"></script>
+
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body style="color:black;">
+    <!-- Start your project here-->
+    <!--Main Navigation-->
+  <header>
+    <style>
+      #intro {
+        background-image: url("img/924879-833941-hindi-language.jpg");
+        height: 100vh;
+      }
+
+      /* Height for devices larger than 576px */
+      @media (min-width: 992px) {
+        #intro {
+          margin-top: -58.59px;
+        }
+      }
+
+      .navbar .nav-link {
+        color: #fff !important;
+      }
+    </style>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark d-none d-lg-block" style="z-index: 2000;">
+    <div class="container-fluid">
+      <!-- Navbar brand -->
+      <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
+        <strong>आओ सीखो</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+        aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarExample01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#intro">Home</a>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a
+                class="btn btn-dark dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Resources
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Learn English Articles</a></li>
+                <li><a class="dropdown-item" href="https://www.multibhashi.com/english-dictionary/#1508142544762-99c6f3ba-c026">Dictionary</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Learn Hindi Articles</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="nav-item">
+            <div class="dropdown">
+              <a
+                class="btn btn-secondary dropdown-toggle"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Learning
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="online_Class.html">Live classes for kids</a></li>
+                <li><a class="dropdown-item" href="learn_Cour.html">Learn English Classes</a>
+                </li>
+                <li><a class="dropdown-item" href="https://classes.multibhashi.com/courses?tags=regional&utm_source=multibhashi_website&utm_medium=mb_menu&utm_medium=mb_menu">Learn Indian Languages</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        <ul class="navbar-nav d-flex flex-row">
+          <!-- Icons -->
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://www.facebook.com/mdbootstrap" rel="nofollow" target="_blank">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://github.com/mdbootstrap/mdb-ui-kit" rel="nofollow" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-0">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-floating btn-lg" data-mdb-toggle="modal"
+              data-mdb-target="#myModal">
+              <i class="fa-regular fa-user"></i>
+            </button>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="signin.html">Sign In</a>
+          </li>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Title</h5>
+                    <button type="button" class="btn-close" data-mdb-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <section class="vh-100" style="background-color: #f4f5f7; color: #04042c;" >
+                      <div class="container py-5 h-100">
+                        <div class="row d-flex justify-content-center align-items-center h-100">
+                          <div class="col col-lg-6 mb-4 mb-lg-0" style="width: 524px;">
+                            <div class="card mb-3" style="border-radius: .5rem;">
+                              <div class="row g-0">
+                                <div class="col-md-4 gradient-custom text-center text-white"
+                                  style="border-top-left-radius: .5rem; border-bottom-left-radius: .5rem;">
+                                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava1-bg.webp"
+                                    alt="Avatar" class="img-fluid my-5" style="width: 80px;" />
+                                  <h5 style="color: #04042c;">User</h5>
+                                  <p style="color: #04042c;">Web Designer</p>
+                                  <a href="profedit.html"><i class="far fa-edit mb-5"></i></a>
+                                </div>
+                                <div class="col-md-8">
+                                  <div class="card-body p-4">
+                                    <h6>Information</h6>
+                                    <hr class="mt-0 mb-4">
+                                    <div class="row pt-1">
+                                      <div class="col-6 mb-3">
+                                        <h6>Email</h6>
+                                        <p class="text-muted">info@example.com</p>
+                                      </div>
+                                      <div class="col-6 mb-3">
+                                        <h6>Phone</h6>
+                                        <p class="text-muted">123 456 789</p>
+                                      </div>
+                                    </div>
+                                    <h6>Projects</h6>
+                                    <hr class="mt-0 mb-4">
+                                    <div class="row pt-1">
+                                      <div class="col-6 mb-3">
+                                        <h6>Recent</h6>
+                                        <p class="text-muted">Lorem ipsum</p>
+                                      </div>
+                                      <div class="col-6 mb-3">
+                                        <h6>Most Viewed</h6>
+                                        <p class="text-muted">Dolor sit amet</p>
+                                      </div>
+                                    </div>
+                                    <div class="d-flex justify-content-start">
+                                      <a href="#!"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
+                                      <a href="#!"><i class="fab fa-twitter fa-lg me-3"></i></a>
+                                      <a href="#!"><i class="fab fa-instagram fa-lg"></i></a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar -->
+  <section >
+    <div id="intro" class="bg-image shadow-2-strong">
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.8);">
+        <div class="container d-flex align-items-center justify-content-center text-center h-100">
+          <div class="text-white" style="padding: 20%;">
+            <h1 class="mb-3" style="text-center"><strong>खेलो और सीखो.</strong></h1>
+            <h5 style="text-center" class="mb-4">सीखने और आनंद लेने के लिए एक इंटरैक्टिव मंच।.</h5>
+            <a class="btn btn-outline-light btn-lg m-2" href="gamelvl.html"
+              role="button" rel="nofollow" target="_blank"><i class="fa-solid fa-gamepad"></i>खेल</a>
+            <a class="btn btn-outline-light btn-lg m-2" href="https://mdbootstrap.com/docs/standard/" target="_blank"
+              role="button"><i class="fa-sharp fa-solid fa-book"></i>अध्ययन</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </header>
+  <div class="container">
+    <!--Section: Content-->
+    <section>
+      <div class="row">
+        <div class="col-md-6 gx-5 mb-4" style="
+        padding-top: 20px;">
+          <div class="bg-image hover-overlay hover-zoom hover-shadow ripple " data-mdb-ripple-color="light">
+            <img src="img/th.jfif" class="img-fluid " style="float: right;" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 gx-5 mb-4" style="
+        padding-top: 20px;">
+          <h4><strong>हिंदी एक प्रमुख भाषा है|</strong></h4>
+          <p class="text-muted">
+            हिंदी एक प्रमुख भाषा है
+            हिन्दी भारत के करोड़ों लोगों की मातृभाषा है, जहाँ बहुत से लोग हिन्दी से अंग्रेजी सीखने में सहज महसूस करते हैं। शोध से पता चलता है कि टाइम्स ऑफ इंडिया के अनुसार, भारत में 42 करोड़ से अधिक लोगों ने हिंदी को अपनी मातृभाषा के रूप में सूचीबद्ध किया है। इसका मतलब है कि भारत में कुल आबादी के 41% से अधिक लोगों ने हिंदी या इसकी उपसमूह भाषा को अपनी मातृभाषा घोषित किया है। जिस भाषा से हम परिचित हैं, उसके माध्यम से एक नई भाषा सीखना बहुत आसान है। 
+            इस प्रकार आपकी अंग्रेजी सीखने में सुधार करने और सीखने का सर्वोत्तम अनुभव प्रदान करने के लिए, हमारे पास आपके लिए सही पाठ्यक्रम हैं। हम आपको अपने मल्टीभाषी ऐप का उपयोग करके हिंदी से अंग्रेजी सीखने के विकल्प प्रदान करते हैं। आप ऐप का उपयोग करके अपने अंग्रेजी वार्तालाप कौशल को बेहतर बना सकते हैं।
+          </p>
+        </div>
+        <div class="col-md-6 gx-5 mb-4">
+          <div class="bg-image hover-overlay hover-zoom hover-shadow ripple shadow-2-strong rounded-5"
+            data-mdb-ripple-color="light" >
+            <img src="img/images.jfif" class="img-fluid"  style="float: right;" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 gx-5 mb-4">
+          <h4><strong>अंग्रेजी सीखना क्यों महत्वपूर्ण है?</strong></h4>
+          <p class="text-muted">
+            अंग्रेजी सीखने के महत्व को विश्व स्तर पर मान्यता प्राप्त है। दुनिया भर के 90 से अधिक देशों में, अंग्रेजी एकमात्र ऐसी भाषा है जिसे आधिकारिक या दूसरी भाषा माना जाता है। कई शिक्षण संस्थानों में अंग्रेजी शिक्षा का माध्यम है। 
+            जब करियर की बात आती है तो अंग्रेजी सीखना बहुत जरूरी है। नौकरी खोजने में भी अंग्रेजी महत्वपूर्ण भूमिका निभाती है।
+          </p>
+        </div>
+        <div class="col-md-6 gx-5 mb-4">
+          <div class="bg-image hover-overlay hover-zoom hover-shadow ripple shadow-2-strong rounded-5"
+            data-mdb-ripple-color="light" >
+            <img src="img/aao seekhein.jpg" class="img-fluid" />
+            <a href="#!">
+              <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 gx-5 mb-4" style="
+          padding-top: 20px;">
+          <h4><strong>आओ सीखें आपकी कैसे मदद कर सकता है?</strong></h4>
+          <p class="text-muted">
+            हिंदी से आसानी से अंग्रेजी सीखने के लिए आप मल्टीभाषी का उपयोग थोड़े से प्रयास और एकाग्रता से कर सकते हैं। हमारे पास हिंदी में सबसे अधिक इस्तेमाल किए जाने वाले अंग्रेजी शब्द अर्थ का एक संग्रह है<a href="https://www.multibhashi.com/english-word-meanings/" target="_blank" rel="noopener noreferrer">अंग्रेजी शब्द अर्थ</a> जहां आप उनके अर्थ, 
+            <a href="https://www.multibhashi.com/english-pronunciation/" target="_blank" rel="noopener noreferrer">शब्दावली,</a> परिभाषा,<a href="https://www.multibhashi.com/english-pronunciation/" target="_blank" rel="noopener noreferrer">उच्चारण</a> , समानार्थक शब्द और विलोम शब्द देख सकते हैं। आपको सीधे एक पृष्ठ पर ले जाया जाएगा जहां हमारे पास मदद के लिए अलग-अलग ऑडियो और विजुअल संकेत हैं।
+             आप उस शब्द के अर्थ को आंतरिक करते हैं। समय के साथ, आपको हमारे शब्द अर्थ संग्रह में और शब्द जुड़ते हुए मिलेंगे।
+            यह पाठ्यक्रम आपको अपने दैनिक जीवन में अंग्रेजी वाक्यों को समझने, सीखने और उपयोग करने में मदद करेगा।
+          </p>
+          <p>आप <a href="https://www.multibhashi.com/learn-english/english-grammar/" target="_blank" rel="noopener noreferrer">व्याकरण</a>पृष्ठ का संदर्भ ले सकते हैं और प्रत्येक मूल नियम को आसानी से सीख सकते हैं और उन नियमों का पालन करते हुए वाक्य बना सकते हैं।</p>
+        </div>
+      </div>
+    </section>
+    <!--Section: Content-->
+  </div>
+    <!--Main Navigation-->
+    
+    <!--Main layout-->
+    <main style="margin-top: 58px">
+      <div class="container pt-4">
+    
+      </div>
+    </main>
+  <!--Main layout-->
+    <!-- End your project here-->
+    <!-- Footer -->
+  <hr class="my-5" />
+
+  <footer id="jhg">
+
+    
+    <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <p>© Copyright Student_corp.</p>
+  </footer>
+  <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/seekho.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
